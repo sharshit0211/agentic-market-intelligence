@@ -1,0 +1,57 @@
+# Dependencies & Packages
+node_modules/
+**/node_modules/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment Files (Credentials & Secrets)
+.env
+.env.*
+!.env.example
+*.env
+
+# Virtual Environments
+venv/
+**/venv/
+.venv/
+**/.venv/
+env/
+**/env/
+
+# Next.js Build Outputs
+.next/
+**/.next/
+out/
+**/out/
+
+# Testing & Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+**/pytest_cache/
+coverage/
+
+# Logs
+*.log
+logs/
+
+# SQLite & Local DB files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
